@@ -6,7 +6,7 @@ the bots being run through
 key = bot name (i.e. "hi" is "hi.py")
 value = the condition in which the bot is run (x is the current hour) (i.e. hi runs every 5 hours)
 '''
-bots = {"hi": lambda x: x % 5 == 0}
+bots = {"test": lambda x: x % 5 == 0}
 
 def main():
 	#find the nearest full hour, and then sleep until that time.
